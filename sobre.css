@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background-color: lightslategrey;
+}
+
+.sobre {
+    display: flex;
+    justify-content: space-between;
+    background-color: cyan;
+    align-items: center;
+    padding: 15px;
+    border: 5px black solid;
+    border-radius: 3px;
+}
+
+.sobre ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.sobre li a {
+    text-decoration: none;
+    color: black;
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: lightslategrey;
+}
+
+.texto img {
+    width: 350px;
+    margin-top: 30px;
+    border: 4px black solid;
+}
+
+.yoto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.yoto p {
+    margin-top:5px;
+    background-color: lightblue;
+    font-weight: bold;
+    border: 3px black solid;
+    border-radius: 4px;
+    padding: 5px;
+}
+
